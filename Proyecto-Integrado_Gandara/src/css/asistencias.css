@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#attendanceTable {
+  width: 50%;
+  border-collapse: collapse;
+  margin: 4rem;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(45deg, #383838, #9e9e9e);
+  margin-top: -0.5rem;
+  border: 2px solid black;
+}
+.tha,
+.tda {
+  border: 2px solid black;
+  padding: 10px;
+  text-align: center;
+}
+.tha {
+  background-color: #383838;
+  color: white;
+}
+.tda input[type="checkbox"] {
+  transform: scale(1.2);
+}
+.tda {
+  color: white;
+}
+
+.asistencia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.asistencia h2 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  padding-bottom: 0.5rem;
+  width: 100%;
+  margin-top: -5.5rem;
+}
+
+#fecha {
+  border: 2px solid #3498db;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #333;
+  background-color: #fff;
+  transition: all 0.3s ease;
+  outline: none;
+  margin-top: 1.5rem;
+  margin-left: 2rem;
+  padding: 10px;
+}
+
+
+#fecha:hover {
+  border-color: #2980b9;
+}
+
+#fecha:focus {
+  border-color: #0c7ce4;
+  box-shadow: 0 0 5px rgba(5, 77, 233, 0.89);
+}
+
+#fecha::-webkit-calendar-picker-indicator {
+  background-color: #3498db;
+  padding: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#fecha::-webkit-inner-spin-button,
+#fecha::-webkit-clear-button {
+  display: none;
+}
+
+.maina {
+  background: linear-gradient(90deg, #383838, #c9c8c8);
+}
+
+.cont4 {
+  height: 100vh;
+}
